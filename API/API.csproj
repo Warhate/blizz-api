@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,8 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Realm.cs" />
+    <Compile Include="RealmContainer.cs" />
     <Compile Include="RealmResources.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JSONParser\JSONParser.csproj">
+      <Project>{bda253c7-38c7-4145-9ed3-f2da8951145f}</Project>
+      <Name>JSONParser</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
