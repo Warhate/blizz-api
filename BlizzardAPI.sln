@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlizzardAPI", "BlizzardAPI\BlizzardAPI.csproj", "{1A9BF8F2-3CC2-41E5-AFFD-544E059A90D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{3A9CBFE6-ACEE-408B-9245-B451358E92D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONParser", "JSONParser\JSONParser.csproj", "{BDA253C7-38C7-4145-9ED3-F2DA8951145F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9BF8F2-3CC2-41E5-AFFD-544E059A90D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9BF8F2-3CC2-41E5-AFFD-544E059A90D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9BF8F2-3CC2-41E5-AFFD-544E059A90D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9BF8F2-3CC2-41E5-AFFD-544E059A90D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9CBFE6-ACEE-408B-9245-B451358E92D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9CBFE6-ACEE-408B-9245-B451358E92D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9CBFE6-ACEE-408B-9245-B451358E92D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9CBFE6-ACEE-408B-9245-B451358E92D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA253C7-38C7-4145-9ED3-F2DA8951145F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA253C7-38C7-4145-9ED3-F2DA8951145F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA253C7-38C7-4145-9ED3-F2DA8951145F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA253C7-38C7-4145-9ED3-F2DA8951145F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
